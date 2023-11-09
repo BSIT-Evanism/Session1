@@ -16,5 +16,12 @@ namespace Session1
         {
             InitializeComponent();
         }
+
+        private void btn_return_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f1 = new Form1();
+            f1.ShowDialog();
+        }
     }
 }
